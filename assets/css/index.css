@@ -32,6 +32,26 @@
          url('../fonts/Sahel/Sahel-Bold-FD.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
+.light-f {
+    font-family: 'Sahel-Light';
+}
+
+.bold-f {
+    font-family: 'Sahel-Bold';
+}
+
+.normal-f {
+    font-family: 'Sahel';
+}
+
+.black-f {
+    font-family: 'Sahel-Black';
+}
+
+.semi-f {
+    font-family: 'Sahel-Semi';
+}
+
 body {
     padding:0px;
     margin:0px;
@@ -40,13 +60,13 @@ body {
     width:100vw;
     height:100vh;
     overflow:hidden;
-    font-family: 'Sahel-Black', sans-serif;
+    font-family: 'Sahel-Bold', sans-serif;
 }
 #loading {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    background: #3d6791;
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -58,7 +78,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid #223a51;
     border-radius:50%;
     margin:0;
 }
@@ -79,10 +99,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background: #3d6791;
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background: #3d6791;
     margin-left:-5px;
 }
 #menu {
@@ -111,10 +131,19 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(10, 109, 195);
+    color: #3d6791;
     font-size:80px;
     /* text-decoration:underline; */
 }
+
+.description-system {
+    font-family: 'Sahel';
+}
+
+.description-system > span {
+    color: #3d6791;
+}
+
 #projects {
     width: 10vw;
     height: 10vw;
@@ -186,20 +215,21 @@ body {
     transition:0.4s ease-in-out;
     border-radius:100px 100px 0px 0px;
 }
+
 #projects:hover {
-    background:rgba(255,50,50,0.9);
+    background:#3d6791;
     cursor:pointer;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:#3d6791;
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:#3d6791;
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:#3d6791;
     cursor:pointer;
 }
 #middle table {
@@ -219,7 +249,7 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(21, 213, 227);
+    color:#3d6791;
 }
 .container {
     width:90vw;
@@ -260,7 +290,7 @@ body {
 }
 .container h1 {
     font-size:60px;
-    text-decoration:underline;
+    /* text-decoration:underline; */
 }
 .container p {
     font-size:21px;
@@ -349,7 +379,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:#3d6791 ;
 }
 #particles-js {
     position:fixed;
@@ -364,15 +394,15 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: #3d6791; 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: #3d6791; 
 }
-::selection {
+/* ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
-}
+	background: #3d6791;
+} */
 
 @media (max-width: 800px){ 
     #projects {
